@@ -1,0 +1,16 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Secrets et fichiers locaux
+.env
+.env.*
+!.env.example
+
+# Fichiers système
+.DS_Store
